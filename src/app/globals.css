@@ -1,26 +1,164 @@
 @import "tailwindcss";
 
+/* ===== NZOIA DESIGN TOKENS ===== */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Earth Tones */
+  --color-espresso: #1a1209;
+  --color-dark-roast: #2c1e0f;
+  --color-volcanic: #3d2b1a;
+  --color-coffee-brown: #5c3d2e;
+  --color-terracotta: #a0522d;
+
+  /* Highland Greens */
+  --color-highland: #2d4a2e;
+  --color-highland-light: #4a7c4b;
+
+  /* Accent Warmth */
+  --color-copper: #b87333;
+  --color-gold: #c8a45e;
+  --color-amber: #d4a24e;
+
+  /* Cream & Neutrals */
+  --color-cream: #f5f0e8;
+  --color-warm-white: #faf7f2;
+  --color-parchment: #ede6d8;
+  --color-sand: #d9cfc0;
+
+  /* Text */
+  --color-text-primary: #1a1209;
+  --color-text-secondary: #5c4a3a;
+  --color-text-muted: #8a7a6a;
+  --color-text-light: #f5f0e8;
+
+  /* Functional */
+  --color-success: #4a7c4b;
+  --color-error: #a0392d;
+
+  /* Spacing */
+  --section-padding: clamp(4rem, 8vw, 8rem);
+  --content-max-width: 1280px;
+
+  /* Transitions */
+  --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-espresso: var(--color-espresso);
+  --color-dark-roast: var(--color-dark-roast);
+  --color-volcanic: var(--color-volcanic);
+  --color-coffee-brown: var(--color-coffee-brown);
+  --color-terracotta: var(--color-terracotta);
+  --color-highland: var(--color-highland);
+  --color-highland-light: var(--color-highland-light);
+  --color-copper: var(--color-copper);
+  --color-gold: var(--color-gold);
+  --color-amber: var(--color-amber);
+  --color-cream: var(--color-cream);
+  --color-warm-white: var(--color-warm-white);
+  --color-parchment: var(--color-parchment);
+  --color-sand: var(--color-sand);
+  --color-text-primary: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-muted: var(--color-text-muted);
+  --color-text-light: var(--color-text-light);
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-dm-sans);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ===== BASE STYLES ===== */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-warm-white);
+  color: var(--color-text-primary);
+  font-family: var(--font-dm-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== TYPOGRAPHY ===== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playfair), serif;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+/* ===== SUBTLE GRAIN TEXTURE ===== */
+.texture-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ===== SCROLL REVEAL ANIMATION ===== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Staggered delays */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-600 { animation-delay: 600ms; }
+
+/* ===== SELECTION ===== */
+::selection {
+  background-color: var(--color-gold);
+  color: var(--color-espresso);
+}
+
+/* ===== FOCUS STYLES ===== */
+:focus-visible {
+  outline: 2px solid var(--color-copper);
+  outline-offset: 2px;
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-parchment);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-coffee-brown);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-volcanic);
 }
