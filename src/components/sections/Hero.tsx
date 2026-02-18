@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
       {/* Background Image */}
       <Image
-        src="https://imagedelivery.net/camphNQlX5poswEZJbu_Cw/03894583-49e4-4c58-84ad-4739f25fd400/largeartwork"
+        src="https://imagedelivery.net/camphNQlX5poswEZJbu_Cw/70c10e47-7a58-4034-4cf1-3f10aa11ac00/largeartwork"
         alt="Lush green coffee plants growing on the volcanic slopes of Kirinyaga, Kenya"
         fill
         priority
@@ -17,7 +17,7 @@ export default function Hero() {
       />
 
       {/* Overlay Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/60" />
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-[1400px] px-6 text-center lg:px-12">
