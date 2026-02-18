@@ -10,7 +10,7 @@ const sections = [
     label: "The Land",
     title: "Where Fire Built the Soil",
     image:
-      "https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=1600&q=80",
+      "https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=1600",
     imageAlt:
       "Panoramic view of the Kirinyaga highlands with Mount Kenya in the distance, lush green vegetation covering volcanic terrain",
     content: [
@@ -24,7 +24,7 @@ const sections = [
     label: "The History",
     title: "A Story of Reclamation",
     image:
-      "https://images.unsplash.com/photo-1504387103978-e4ee71416c38?w=1600&q=80",
+      "https://images.unsplash.com/photo-1504387103978-e4ee71416c38?w=1600",
     imageAlt:
       "Hands sorting coffee cherries during harvest, showing the careful manual selection process",
     content: [
@@ -38,7 +38,7 @@ const sections = [
     label: "The Farmers",
     title: "Hands That Know the Land",
     image:
-      "https://images.unsplash.com/photo-1599639957043-f3aa5c986398?w=1600&q=80",
+      "https://images.unsplash.com/photo-1599639957043-f3aa5c986398?w=1600",
     imageAlt:
       "Coffee farmers working in the highlands, tending to coffee plants on a sloped farm with careful attention",
     content: [
@@ -52,7 +52,7 @@ const sections = [
     label: "The Craft",
     title: "Roasted at Source",
     image:
-      "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1600&q=80",
+      "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1600",
     imageAlt:
       "Coffee roasting process with golden-brown beans tumbling in a professional roaster, warm tones of the roasting facility",
     content: [
@@ -66,7 +66,7 @@ const sections = [
     label: "The Mission",
     title: "The Value Stays Here",
     image:
-      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1600&q=80",
+      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1600",
     imageAlt:
       "A beautifully poured cup of coffee with rich crema, warm light illuminating the deep amber tones",
     content: [
@@ -83,7 +83,7 @@ export default function OriginsContent() {
       {/* Hero */}
       <section className="relative flex min-h-[70vh] items-center justify-center overflow-hidden md:min-h-[80vh]">
         <Image
-          src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1920"
           alt="Sweeping view of the Kenyan highlands at golden hour, volcanic mountains and lush green valleys"
           fill
           priority

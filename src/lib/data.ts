@@ -33,7 +33,8 @@ export interface RoastLine {
 export const SHOP_URL = "https://www.shopify.com";
 
 export const FORMSPREE_ENDPOINT =
-  process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT ?? "https://formspree.io/f/YOUR_FORM_ID";
+  process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT ??
+  "https://formspree.io/f/YOUR_FORM_ID";
 
 export const CONTACT_EMAIL = "hello@nzoiacoffee.com";
 
@@ -98,8 +99,7 @@ const nonyeReserve: Product[] = [
         shopUrl: SHOP_URL,
       },
     ],
-    image:
-      "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=800",
   },
 ];
 
@@ -114,7 +114,12 @@ const kirinyagaPeaks: Product[] = [
     coffeeType: "100% Arabica",
     description:
       "Named for the ancient peaks that guard Kenya's heartland, Kirinyaga Peaks is a coffee of commanding presence and quiet depth. Roasted darker to unlock the bean's full baritone, this is a cup that fills the room. Rich dark chocolate opens the palate, followed by waves of smoky cedar and roasted walnut. The body is full and velvety, with a finish that lingers like embers — warm, bittersweet, and deeply satisfying. For those who believe coffee should be felt as much as tasted, Kirinyaga Peaks is an invitation to stand at the summit.",
-    sensoryNotes: ["Dark Chocolate", "Smoky Cedar", "Roasted Walnut", "Caramel"],
+    sensoryNotes: [
+      "Dark Chocolate",
+      "Smoky Cedar",
+      "Roasted Walnut",
+      "Caramel",
+    ],
     oneLiner:
       "Bold and commanding, with dark chocolate depth and a smoky, lingering finish.",
     variants: [
@@ -135,8 +140,7 @@ const kirinyagaPeaks: Product[] = [
         shopUrl: SHOP_URL,
       },
     ],
-    image:
-      "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800",
   },
 ];
 
@@ -172,8 +176,7 @@ const ketochiRoast: Product[] = [
         shopUrl: SHOP_URL,
       },
     ],
-    image:
-      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800",
   },
 ];
 

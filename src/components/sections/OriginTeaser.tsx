@@ -11,7 +11,7 @@ export default function OriginTeaser() {
         {/* Image Side */}
         <div className="relative h-[50vh] lg:h-auto">
           <Image
-            src="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?w=1200&q=80"
+            src="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?w=1200"
             alt="Coffee growing on the fertile volcanic slopes near Mount Kenya, Kirinyaga region"
             fill
             className="object-cover"
