@@ -7,19 +7,20 @@ import { roastLines } from "@/lib/data";
 
 export default function ProductHighlights() {
   return (
-    <section className="relative bg-parchment py-24 md:py-32 lg:py-40">
+    <section className="relative bg-parchment pt-12 pb-24 md:pt-16 md:pb-32 lg:pt-20 lg:pb-40">
       <div className="texture-grain absolute inset-0" />
       <div className="relative z-10 mx-auto max-w-[1400px] px-6 lg:px-12">
-        <ScrollReveal className="mb-16 text-center md:mb-20">
+        <ScrollReveal className="mb-10 text-center md:mb-14">
           <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-copper">
             The Collection
           </span>
           <h2 className="mt-4 font-heading text-4xl text-espresso md:text-5xl lg:text-6xl">
-            Three Roasts, One Origin
+            Three Roasts, One Vision
           </h2>
           <p className="mx-auto mt-4 max-w-lg text-text-secondary">
-            Each roast line tells a different story of the same extraordinary
-            terroir — the volcanic soil, the altitude, the craft.
+            Each roast line tells a different story of East Africa&apos;s
+            extraordinary terroir — volcanic soil, altitude, and the craft of
+            expert roasting.
           </p>
         </ScrollReveal>
 

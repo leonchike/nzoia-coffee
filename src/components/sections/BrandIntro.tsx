@@ -19,18 +19,19 @@ export default function BrandIntro() {
 
         <ScrollReveal delay={150}>
           <p className="font-heading text-2xl leading-relaxed text-espresso md:text-3xl lg:text-4xl">
-            From the volcanic highlands of Kirinyaga, where the air is thin and
-            the soil runs deep with ancient fire, comes a coffee that carries the
-            whole story of its origin.
+            From the volcanic highlands of East Africa, where the air is thin
+            and the soil runs deep with ancient fire, comes a coffee that
+            carries the whole story of its origin.
           </p>
         </ScrollReveal>
 
         <ScrollReveal delay={300}>
           <p className="mt-8 text-base leading-relaxed text-text-secondary md:text-lg">
-            Nzoia is single-origin Kenyan coffee — grown by farmers whose
-            families have tended this land for generations, roasted at source in
-            Nairobi, and shipped to the world with the full value of its craft
-            intact. This is not commodity coffee. This is heritage in a cup.
+            Nzoia is specialty coffee sourced from smallholder farmers across
+            East Africa — families who have tended this land for generations.
+            Roasted at source in Nairobi, and shipped to the world with the
+            full value of its craft intact. This is not commodity coffee. This
+            is heritage in a cup.
           </p>
         </ScrollReveal>
       </div>

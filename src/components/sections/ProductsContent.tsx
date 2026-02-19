@@ -26,8 +26,8 @@ export default function ProductsContent() {
             Our Coffee
           </h1>
           <p className="mx-auto mt-6 max-w-xl opacity-0 animate-fade-in-up delay-300 text-base text-cream/75 md:text-lg">
-            Three roast lines, one extraordinary origin. Each crafted to reveal
-            a different facet of Kirinyaga&apos;s volcanic terroir.
+            Three roast lines, one extraordinary vision. Each crafted to reveal
+            a different facet of East Africa&apos;s volcanic terroir.
           </p>
         </div>
       </section>
@@ -41,9 +41,9 @@ export default function ProductsContent() {
           <div className="mx-auto flex max-w-[1400px] flex-wrap items-center justify-center gap-x-8 gap-y-2 px-6 py-4 text-xs font-medium uppercase tracking-wider text-text-muted lg:px-12">
             <span>100% Arabica</span>
             <span className="hidden sm:inline">&middot;</span>
-            <span>Single-Origin</span>
+            <span>Smallholder Sourced</span>
             <span className="hidden sm:inline">&middot;</span>
-            <span>Kirinyaga, Kenya</span>
+            <span>East African Origins</span>
             <span className="hidden sm:inline">&middot;</span>
             <span>Roasted in Nairobi</span>
           </div>
@@ -208,19 +208,19 @@ export default function ProductsContent() {
               <div className="mx-auto max-w-2xl text-center">
                 <p className="font-heading text-lg italic text-text-secondary md:text-xl">
                   &ldquo;Nzoia Coffee comes to you from beans produced by
-                  ethical farmers who have grown coffee since 1953. Grown at
-                  high altitude in rich volcanic African soil, our coffee is
-                  known for cleanliness, meticulous processing methods, and
-                  craftsmanship.&rdquo;
+                  ethical smallholder farmers across East Africa, who have grown
+                  coffee for generations. Grown at high altitude in rich
+                  volcanic African soil, our coffee is known for cleanliness,
+                  meticulous processing methods, and craftsmanship.&rdquo;
                 </p>
                 <div className="mt-6 flex items-center justify-center gap-4 text-xs text-text-muted">
                   <span>Premium Arabica</span>
                   <span>&middot;</span>
                   <span>Exceptional Selection</span>
                   <span>&middot;</span>
-                  <span>Single-Origin</span>
+                  <span>Smallholder Sourced</span>
                   <span>&middot;</span>
-                  <span>Kenyan</span>
+                  <span>East African</span>
                 </div>
               </div>
             </ScrollReveal>

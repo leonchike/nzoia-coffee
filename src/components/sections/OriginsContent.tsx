@@ -12,11 +12,11 @@ const sections = [
     image:
       "https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=2000",
     imageAlt:
-      "Panoramic view of the Kirinyaga highlands with Mount Kenya in the distance, lush green vegetation covering volcanic terrain",
+      "Panoramic view of the East African highlands, lush green vegetation covering volcanic terrain along the Great Rift Valley",
     content: [
-      "At the base of Mount Kenya — known to the Kikuyu people as Kirinyaga, 'the place of brightness' — the earth is not ordinary. Millennia of volcanic activity have left the soil rich with minerals, deep red in color, and impossibly fertile. It is soil that remembers fire.",
-      "Here, at elevations between 1,400 and 1,900 meters, the equatorial sun is tempered by cool mountain air. The days are warm and generous; the nights, crisp and clarifying. Coffee cherries ripen slowly in these conditions, developing a complexity that lowland coffee simply cannot achieve. The sugars concentrate. The acids brighten. The flavors deepen.",
-      "This is not just where Nzoia's coffee is grown. This is why it tastes the way it does. The altitude, the volcanic soil, the rain patterns shaped by the mountain — every sip is a conversation with geography.",
+      "Across the Great Rift Valley and the highlands of East Africa, the earth is not ordinary. Millennia of volcanic activity have left the soil rich with minerals, deep red in color, and impossibly fertile. It is soil that remembers fire.",
+      "Here, at elevations between 1,400 and 2,000 meters — from Kenya's central highlands to the hills of Rwanda and the slopes of Ethiopia — the equatorial sun is tempered by cool mountain air. The days are warm and generous; the nights, crisp and clarifying. Coffee cherries ripen slowly in these conditions, developing a complexity that lowland coffee simply cannot achieve. The sugars concentrate. The acids brighten. The flavors deepen.",
+      "This is not just where Nzoia's coffee is grown. This is why it tastes the way it does. The altitude, the volcanic soil, the rain patterns shaped by the mountains — every sip is a conversation with geography.",
     ],
   },
   {
@@ -28,9 +28,9 @@ const sections = [
     imageAlt:
       "Hands sorting coffee cherries during harvest, showing the careful manual selection process",
     content: [
-      "Kenya's relationship with coffee is a story of resilience. Under British colonial rule, Africans were largely prohibited from growing coffee for commercial export — the most lucrative crop in the region, cultivated on their own land, but denied to them as enterprise. The coffee economy was built on extraction: the value left the continent.",
-      "Independence changed the law, but transforming the industry took generations. Small-scale farmers slowly gained access to the market, learning the craft of specialty coffee cultivation and fighting for recognition in a global system that undervalued their work. Cooperative societies formed. Knowledge was shared. Standards rose.",
-      "Nzoia exists in the chapter that comes next. Not as a correction of history, but as a realization of what was always possible — Kenyan coffee, grown by Kenyan farmers, roasted in Kenya, and exported with the full value of its craft intact. The story isn't about what was taken. It's about what was built.",
+      "East Africa's relationship with coffee is a story of resilience. Under colonial rule, African farmers were largely prohibited from growing coffee for commercial export — the most lucrative crop in the region, cultivated on their own land, but denied to them as enterprise. The coffee economy was built on extraction: the value left the continent.",
+      "Independence changed the law across the region, but transforming the industry took generations. Small-scale farmers slowly gained access to the market, learning the craft of specialty coffee cultivation and fighting for recognition in a global system that undervalued their work. Cooperative societies formed. Knowledge was shared. Standards rose.",
+      "Nzoia exists in the chapter that comes next. Not as a correction of history, but as a realization of what was always possible — East African coffee, grown by African farmers, roasted in Kenya, and exported with the full value of its craft intact. The story isn't about what was taken. It's about what was built.",
     ],
   },
   {
@@ -42,7 +42,7 @@ const sections = [
     imageAlt:
       "Coffee farmers working in the highlands, tending to coffee plants on a sloped farm with careful attention",
     content: [
-      "Nzoia partners directly with smallholder farmers in the Kirinyaga region — families who have cultivated coffee for generations, some since 1953. These aren't contract growers filling quotas. They are artisans with an intimate knowledge of their microclimates, their soil, their varietals.",
+      "Nzoia partners directly with smallholder farmers across East Africa — from Kenya's central highlands to the hills of Rwanda and the slopes of Ethiopia. These are families who have cultivated coffee for generations. They aren't contract growers filling quotas. They are artisans with an intimate knowledge of their microclimates, their soil, their varietals.",
       "The relationship is built on transparency and shared value. Fair pricing isn't a marketing line — it's the foundation. When farmers are paid well and consistently, they invest in their farms. They experiment with processing methods. They plant new varieties. Quality becomes self-reinforcing.",
       "The processing is meticulous: only ripe cherries are hand-picked. They undergo the washed process — depulped, fermented to remove mucilage, then thoroughly washed and laid on raised beds for slow sun-drying. At each stage, beans are hand-sorted to remove defects. It's painstaking work, and it's what gives Kenyan coffee its legendary cleanliness and clarity.",
     ],
@@ -71,8 +71,8 @@ const sections = [
       "A beautifully poured cup of coffee with rich crema, warm light illuminating the deep amber tones",
     content: [
       "Nzoia exists at the intersection of craft and conviction. We believe that a product grown in Africa, perfected by African hands, should be finished and packaged on the continent — not shipped away to be completed elsewhere.",
-      "This isn't just philosophy. It's economics. The African Continental Free Trade Area (AfCFTA) envisions a continent that trades in finished goods, not raw materials. Nzoia is a small but deliberate expression of that vision: Kenyan coffee, roasted in Kenya, packaged in Kenya, distributed through African and global networks.",
-      "Our launch market is the United States, with planned expansion to follow. But the point isn't just where it's sold — it's where the value is created. Every bag of Nzoia represents skills, jobs, and investment that stay on the continent. From Kirinyaga to Nairobi to the world — the full journey, under one name.",
+      "This isn't just philosophy. It's economics. The African Continental Free Trade Area (AfCFTA) envisions a continent that trades in finished goods, not raw materials. Nzoia is a small but deliberate expression of that vision: East African coffee, roasted in Kenya, packaged in Kenya, distributed through African and global networks.",
+      "Our launch market is the United States, with planned expansion to follow. But the point isn't just where it's sold — it's where the value is created. Every bag of Nzoia represents skills, jobs, and investment that stay on the continent. From the highlands of East Africa to Nairobi to the world — the full journey, under one name.",
     ],
   },
 ];

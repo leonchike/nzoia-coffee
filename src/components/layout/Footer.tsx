@@ -13,9 +13,9 @@ export default function Footer() {
               Nzoia
             </Link>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-cream/70">
-              Single-origin Kenyan coffee, roasted at source in Nairobi. From
-              the volcanic highlands of Kirinyaga to your cup — the value stays
-              on the continent.
+              East African specialty coffee, roasted at source in Nairobi. From
+              the volcanic highlands of East Africa to your cup — the value
+              stays on the continent.
             </p>
             <p className="mt-6 font-heading text-lg italic text-gold/80">
               Born of the land. Roasted with intention.

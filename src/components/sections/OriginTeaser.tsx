@@ -12,7 +12,7 @@ export default function OriginTeaser() {
         <div className="relative h-[50vh] lg:h-auto">
           <Image
             src="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?w=2000"
-            alt="Coffee growing on the fertile volcanic slopes near Mount Kenya, Kirinyaga region"
+            alt="Coffee growing on the fertile volcanic slopes of the East African highlands"
             fill
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 50vw"
@@ -25,7 +25,7 @@ export default function OriginTeaser() {
           <div className="max-w-lg">
             <ScrollReveal>
               <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-gold/70">
-                Kirinyaga, Kenya
+                East Africa
               </span>
             </ScrollReveal>
 
@@ -39,12 +39,12 @@ export default function OriginTeaser() {
 
             <ScrollReveal delay={300}>
               <p className="mt-6 text-base leading-relaxed text-cream/70 md:text-lg">
-                At 1,700 meters above sea level, in the shadow of Mount Kenya,
-                volcanic soil and equatorial sun create one of the world&apos;s
-                most extraordinary coffee-growing environments. The land here
-                doesn&apos;t just grow coffee — it shapes it. Every cup of Nzoia
-                carries the altitude, the fire, and the generations of knowledge
-                that tend this earth.
+                Across the highlands of East Africa — at elevations above 1,500
+                meters — volcanic soil and equatorial sun create one of the
+                world&apos;s most extraordinary coffee-growing environments. The
+                land here doesn&apos;t just grow coffee — it shapes it. Every
+                cup of Nzoia carries the altitude, the fire, and the
+                generations of knowledge that tend this earth.
               </p>
             </ScrollReveal>
 

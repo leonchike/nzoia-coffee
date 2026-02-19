@@ -22,24 +22,24 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Nzoia — Premium Single-Origin Kenyan Coffee",
+    default: "Nzoia — Premium East African Coffee, Roasted in Kenya",
     template: "%s | Nzoia Coffee",
   },
   description:
-    "Single-origin Arabica coffee from the volcanic highlands of Kirinyaga, Kenya. Roasted at source in Nairobi. Born of the land, roasted with intention.",
+    "Premium Arabica coffee sourced from smallholder farmers across East Africa. Roasted at source in Nairobi, Kenya. Born of the land, roasted with intention.",
   openGraph: {
     type: "website",
     locale: "en_US",
     siteName: "Nzoia Coffee",
-    title: "Nzoia — Premium Single-Origin Kenyan Coffee",
+    title: "Nzoia — Premium East African Coffee, Roasted in Kenya",
     description:
-      "Single-origin Arabica coffee from the volcanic highlands of Kirinyaga, Kenya. Roasted at source in Nairobi.",
+      "Premium Arabica coffee sourced from smallholder farmers across East Africa. Roasted at source in Nairobi, Kenya.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nzoia — Premium Single-Origin Kenyan Coffee",
+    title: "Nzoia — Premium East African Coffee, Roasted in Kenya",
     description:
-      "Single-origin Arabica coffee from the volcanic highlands of Kirinyaga, Kenya.",
+      "Premium Arabica coffee sourced from smallholder farmers across East Africa.",
   },
 };
 

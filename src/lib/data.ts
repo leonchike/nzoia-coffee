@@ -74,13 +74,13 @@ const nonyeReserve: Product[] = [
     roastLine: "Nonye Reserve",
     profile: "Balanced, Fruity Flavors",
     roastLevel: "Medium",
-    origin: "Single-origin, Kirinyaga, Kenya",
+    origin: "Sourced across East Africa",
     coffeeType: "100% Arabica",
     description:
-      "A coffee that arrives like sunrise over the Kirinyaga highlands — bright, alive, and full of promise. Nonye Reserve celebrates the natural vibrancy of high-altitude Kenyan beans, where volcanic soil and cool mountain air coax extraordinary fruit-forward complexity from every cherry. The first sip opens with sparkling blackcurrant and Meyer lemon, unfolding into layers of passion fruit and ripe mandarin. A delicate honey sweetness carries the finish, clean and lingering, like the memory of warm rain on red earth. This is coffee that doesn't just taste — it tells you exactly where it grew.",
+      "A coffee that arrives like sunrise over the East African highlands — bright, alive, and full of promise. Nonye Reserve celebrates the natural vibrancy of high-altitude East African beans, where volcanic soil and cool mountain air coax extraordinary fruit-forward complexity from every cherry. The first sip opens with sparkling blackcurrant and Meyer lemon, unfolding into layers of passion fruit and ripe mandarin. A delicate honey sweetness carries the finish, clean and lingering, like the memory of warm rain on red earth. This is coffee that doesn't just taste — it tells you exactly where it grew.",
     sensoryNotes: ["Blackcurrant", "Citrus", "Passion Fruit", "Honey"],
     oneLiner:
-      "Bright and lively, with sparkling blackcurrant and sun-ripened citrus from the Kirinyaga highlands.",
+      "Bright and lively, with sparkling blackcurrant and sun-ripened citrus from East Africa's volcanic highlands.",
     variants: [
       {
         id: "nonye-wb",
@@ -111,7 +111,7 @@ const kirinyagaPeaks: Product[] = [
     roastLine: "Kirinyaga Peaks",
     profile: "Bold, Majestic Roast",
     roastLevel: "Dark",
-    origin: "Single-origin, Kirinyaga, Kenya",
+    origin: "Sourced across East Africa",
     coffeeType: "100% Arabica",
     description:
       "Named for the ancient peaks that guard Kenya's heartland, Kirinyaga Peaks is a coffee of commanding presence and quiet depth. Roasted darker to unlock the bean's full baritone, this is a cup that fills the room. Rich dark chocolate opens the palate, followed by waves of smoky cedar and roasted walnut. The body is full and velvety, with a finish that lingers like embers — warm, bittersweet, and deeply satisfying. For those who believe coffee should be felt as much as tasted, Kirinyaga Peaks is an invitation to stand at the summit.",
@@ -152,7 +152,7 @@ const ketochiRoast: Product[] = [
     roastLine: "Ketochi Roast",
     profile: "Smooth, Mellow Blend",
     roastLevel: "Medium",
-    origin: "Single-origin, Kirinyaga, Kenya",
+    origin: "Sourced across East Africa",
     coffeeType: "100% Arabica",
     description:
       "Some coffees demand attention. Ketochi Roast simply earns it. This is the cup that becomes ritual — the one you reach for at dawn, the one that turns an ordinary morning into a quiet ceremony. Roasted to a careful medium that preserves the bean's natural sweetness, Ketochi opens with warm honey and brown sugar, flowing into silky caramel and a whisper of toasted almond. The body is rounded and comforting, the finish clean and effortless. Not every coffee needs to be an event. Some just need to be perfect.",
@@ -188,7 +188,7 @@ export const roastLines: RoastLine[] = [
     name: "Nonye Reserve",
     tagline: "Balanced, Fruity Flavors",
     description:
-      "Where volcanic soil meets mountain mist, something extraordinary happens. Nonye Reserve captures the bright, fruit-forward character of Kirinyaga's finest beans — a celebration of origin in every cup.",
+      "Where volcanic soil meets mountain mist, something extraordinary happens. Nonye Reserve captures the bright, fruit-forward character of East Africa's finest highland beans — a celebration of origin in every cup.",
     products: nonyeReserve,
   },
   {
@@ -196,7 +196,7 @@ export const roastLines: RoastLine[] = [
     name: "Kirinyaga Peaks",
     tagline: "Bold, Majestic Roast",
     description:
-      "At the foot of Mount Kenya, where the air thins and the soil runs deep, coffee develops a richness that commands attention. Kirinyaga Peaks channels that power — dark, bold, unyielding.",
+      "Inspired by the towering peaks where the air thins and the soil runs deep, coffee develops a richness that commands attention. Kirinyaga Peaks channels that power — dark, bold, unyielding.",
     products: kirinyagaPeaks,
   },
   {
@@ -204,7 +204,7 @@ export const roastLines: RoastLine[] = [
     name: "Ketochi Roast",
     tagline: "Smooth, Mellow Blend",
     description:
-      "Not every extraordinary thing announces itself. Ketochi Roast is the quiet luxury of Kenyan coffee — smooth, sweet, and impossibly easy to love. The cup you come back to, every single morning.",
+      "Not every extraordinary thing announces itself. Ketochi Roast is the quiet luxury of East African coffee — smooth, sweet, and impossibly easy to love. The cup you come back to, every single morning.",
     products: ketochiRoast,
   },
 ];
