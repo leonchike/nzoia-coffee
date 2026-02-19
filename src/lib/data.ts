@@ -99,7 +99,8 @@ const nonyeReserve: Product[] = [
         shopUrl: SHOP_URL,
       },
     ],
-    image: "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=800",
+    image:
+      "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=2000",
   },
 ];
 
@@ -140,7 +141,7 @@ const kirinyagaPeaks: Product[] = [
         shopUrl: SHOP_URL,
       },
     ],
-    image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800",
+    image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=2000",
   },
 ];
 
@@ -176,7 +177,8 @@ const ketochiRoast: Product[] = [
         shopUrl: SHOP_URL,
       },
     ],
-    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800",
+    image:
+      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=2000",
   },
 ];
 
